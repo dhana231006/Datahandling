@@ -1,0 +1,11 @@
+grades <- c("A", "B", "C", "D", "E")
+students <- c(18, 25, 20, 10, 7)
+
+barplot(
+  students,
+  names.arg = grades,
+  main = "Student Grade Distribution",
+  xlab = "Grades",
+  ylab = "Number of Students",
+  col = c("green", "blue", "yellow", "orange", "red")
+)
